@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+.container{
+    width: 290px;
+    margin: 20px auto;
+}
+.content{
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.content h3{
+    font-weight: 200;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: hsl(229, 8%, 28%);
+}
+.content h2{
+    font-weight: 600;
+    font-size: 22px;
+    color:hsl(234, 12%, 34%);
+}
+.content p{
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    
+}
+.wrapper{
+    margin-top: 60px;
+    
+}
+.box-content{
+    margin: 20px;
+    padding-left: 5px;
+}
+.box1{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    box-shadow: 10px 10px 8px rgba(202, 202, 202, 0.333);
+}
+.box2{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 10px 10px 8px rgba(202, 202, 202, 0.333);
+}
+.box3{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 10px 10px 8px rgba(202, 202, 202, 0.333);
+}
+.box4{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 10px 10px 8px rgba(202, 202, 202, 0.333);
+}
+.wrapper h3{
+    color:hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.wrapper p{
+    font-size: 12px;
+    margin-bottom: 40px;
+    color: hsl(229, 6%, 66%)
+}
+.wrapper img{
+    width: 50px;
+    height: 50px;
+    padding-left: 80%;
+}
+footer{
+    width: 100%;
+    min-height: 100%;
+    margin-top: 30px;
+    height: 60px;
+    line-height: 60px;
+    background-color: hsl(180, 62%, 55%);
+    
+}
+footer a{
+    font-size: 14px;
+    font-weight: 600px;
+    text-decoration: none;
+}
+@media screen and (min-width: 1000px) {
+    .container{
+       justify-content: center;
+       width: 500px;
+    }
+
+    .wrapper{
+
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .box1{
+        height: 50%;
+        margin: auto 0;
+    }
+    .box4{
+        height: 50%;
+        margin: auto 0;
+    }
+    .middle{
+        margin: 0 5%;
+    }
+}
